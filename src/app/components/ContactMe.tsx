@@ -16,8 +16,15 @@ const ContactMe = () => {
     >
       <SectionHeading>Contact Me</SectionHeading>
       <p className="text-gray-700 text-center">
-        Feel free to contact me on <a className="underline" href="https://www.linkedin.com/in/naissa-charles/">LinkedIn</a>{" "} or directly using this form. I will get
-        back to you as soon as possible.
+        Feel free to contact me on{" "}
+        <a
+          className="underline"
+          href="https://www.linkedin.com/in/naissa-charles/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>{" "}
+        or directly using this form. I will get back to you as soon as possible.
       </p>
 
       <form
