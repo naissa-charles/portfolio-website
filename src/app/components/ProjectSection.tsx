@@ -17,7 +17,7 @@ export default function ProjectSection() {
   );
 }
 
-type ProjectProps = (typeof projectsData)[0];
+type ProjectProps = (typeof projectsData)[number];
 
 function Project({ title, description, tags }: ProjectProps) {
   return (
