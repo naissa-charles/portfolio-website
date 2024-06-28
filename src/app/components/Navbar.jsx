@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full rounded-none border border-white h-24 shadow-xl bg-white">
+    <nav className="fixed w-full rounded-none border border-white h-[4.5rem] shadow-xl bg-white">
       <div className="flex justify-center items-center h-full w-full px-4 2xl:px-16">
         <div className="sm:flex hidden gap-3 md:gap-9">
           <Link href="/" className="uppercase hover:border-b hover:text-rose-500 font-semibold">

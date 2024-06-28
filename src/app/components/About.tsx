@@ -1,5 +1,6 @@
 import React from "react";
 import SectionHeading from "./section-heading";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -43,7 +44,7 @@ export default function About() {
 
       <p className="mt-4 ">
         If you know or have opportunties that matches my skills, please
-        don't hesitate to <span className="font-medium">contact</span> me.
+        do not hesitate to <Link href="#contact" className="font-bold">contact</Link> me.
       </p>
     </section>
   );
